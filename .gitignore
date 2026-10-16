@@ -1,0 +1,33 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+# Base de datos generada por el servicio (carpeta data/ y archivos SQLite)
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Excel exportados al probar los endpoints (el de ejemplo se conserva)
+registros*.xlsx
+~$*.xlsx
+
+# Logs de prueba creados para simular el seguimiento en vivo
+vivo.txt
+
+# Variables de entorno y secretos
+.env
+.env.*
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
